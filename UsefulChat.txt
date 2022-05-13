@@ -1,0 +1,54 @@
+install flutter plugin in vs code
+ctrl+shift+p 
+to generate a new project
+
+flutter write
+2 classes - stateless is will be constant
+
+If you want to run it on physical device then use USB cable connect it and on USB debugging then click on run 
+
+
+------
+Our instructor uses Arch btw 💖
+and m using debian 11
+Bullseye! Anuj
+-----
+
+Material app flutter
+MaterialApp is a UI kit with many customisations
+Material design is of Google
+and wrap your components around a MaterialApp widget to provide default android styles
+
+
+1) Confirm flutter doctor is good with it's setup, confirm Flutter SDK is detected.
+2) Enable developer settings, and then Developer Settings > Enable USB debugging
+3) Go to project root, run "flutter run" to run the device on an actual device.
+
+I cannot see any emulator in VS Code.
+Ans: need to turn on the usb debugging on in physical device
+Also, install adb on your pllatform
+----
+
+use this command once  flutter clean 
+flutter pub get
+then run surely it will work
+
+----------
+Hw: how to add offline image in it
+
+You can publish them in playstore
+Yagya Modi you need to use web api in flutter to build a webapp of your flutter app
+you can take advantage of the multi platform feature
+
+You use arch btw ❤️
+------------------
+Day 3
+
+If you guys are still having problems in running the first app, have a look at this video https://youtu.be/hfz_AraTk_k
+
+And for some of you who wanted to run their apps on their real physical device  https://youtu.be/aohkII1C4JY
+
+Be prepared with all the tools, will start building some apps from today 😇 https://github.com/AshAman999/GirlscriptOutreachyFlutter  
+
+The flies are in the lib folder
+-------------
